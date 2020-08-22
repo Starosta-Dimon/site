@@ -1,0 +1,17 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+height: 90%;
+width: 1000px;
+}
+.wrapper{
+    width: 100%;
+    display: grid;
+    grid-gap: 1em;
+    grid-auto-rows: minmax(100px, 800px);
+}
+.milk img{
+    max-width: 100%;
+}
